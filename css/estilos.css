@@ -2,12 +2,21 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 body {
     width: 100%;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    position: relative;
 }
 
 footer {
     width: 100%;
+    padding: 0%;
+    
 }
 
 .header {
@@ -520,4 +529,32 @@ a.orador:hover {
     }
     
 
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-text2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text3{
+    text-align: center;
+    font-size: small;
+    color: gray;
+}
+
+.pie-pagina{
+    width: 100%;
+    padding:0;
+    margin-bottom: auto;
+    margin-top: auto%;
+    position: absolute;
+    bottom:0%;
 }
