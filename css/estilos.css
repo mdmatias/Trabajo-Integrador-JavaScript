@@ -2,20 +2,15 @@
     box-sizing: border-box;
 }
 
-html{
-    height: 100%;
-}
 
 body {
     width: 100%;
-    padding-bottom: 3em;
-    min-height: 100vh;
-    position: relative;
+    
 }
 
 footer {
     width: 100%;
-    padding: 0%;
+    
     
 }
 
@@ -290,12 +285,6 @@ a.orador:hover {
     margin-top: 5px;
 }
 
-/*.contacto {
-    justify-content: center;
-    display: flex;
-    width: 7%;
-}*/
-
 .navbar {
     display: none;
 }
@@ -501,7 +490,6 @@ a.orador:hover {
 
     .contacto {
         width: 100%;
-        /*margin-left: 35%;*/
     }
 
     .preguntas {
@@ -527,6 +515,10 @@ a.orador:hover {
     .prensa {
         width: 100%;
     }
+
+    .cuerpo{
+        height:max-content;
+    }
     
 
 }
@@ -550,11 +542,7 @@ a.orador:hover {
     color: gray;
 }
 
-.pie-pagina{
-    width: 100%;
-    padding:0;
-    margin-bottom: auto;
-    margin-top: auto%;
-    position: absolute;
-    bottom:0%;
+.cuerpo{
+    min-height: 76.4vh;
 }
+
